@@ -3,3 +3,7 @@
 ## Information
 
 Following [this](https://outsidein.dev/about-this-guide.html) guide on TDD for Vue.js.
+
+<p align="right">
+    Test
+</p>
