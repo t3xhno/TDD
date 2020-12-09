@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import RestaurantList from '@/components/RestaurantList'
+import RestaurantList from '@/components/RestaurantList';
 export default {
   name: 'RestaurantScreen',
   components: {
-      RestaurantList
-  }
+    RestaurantList,
+  },
 };
 </script>
