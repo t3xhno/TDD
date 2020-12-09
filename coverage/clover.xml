@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607534254939" clover="3.2.0">
-  <project timestamp="1607534254939" name="All files">
-    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="13" coveredelements="13" complexity="0" loc="7" ncloc="7" packages="2" files="2" classes="2"/>
+<coverage generated="1607546036668" clover="3.2.0">
+  <project timestamp="1607546036668" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="2" coveredconditionals="2" methods="18" coveredmethods="18" elements="48" coveredelements="48" complexity="0" loc="28" ncloc="28" packages="2" files="3" classes="3"/>
     <package name="components">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+      <file name="NewRestaurantForm.vue" path="/home/tex/Projects/tdd/src/components/NewRestaurantForm.vue">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="40" count="12" type="stmt"/>
+        <line num="51" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="9" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="54" count="9" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+      </file>
       <file name="RestaurantList.vue" path="/home/tex/Projects/tdd/src/components/RestaurantList.vue">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
       </file>
     </package>
     <package name="store">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
       <file name="restaurants.js" path="/home/tex/Projects/tdd/src/store/restaurants.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="7" type="stmt"/>
+        <line num="34" count="7" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
       </file>
     </package>
   </project>
